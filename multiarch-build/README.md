@@ -30,6 +30,8 @@ docker buildx build --platform linux/arm64/v8 --tag multiarch-example:buildx-lat
 ## References
 * [docker-compose sample][1]
 * [Tutorial][2]
+* [Download qemu statics directly][3]
 
 [1]: https://github.com/mageddo/dockerized-database-servers/blob/9bc64f89792ec48c43e5aa056048b570dbbe6ead/_hub/graalvm/docker-compose.yml#L10
 [2]: https://github.com/multiarch/qemu-user-static#getting-started
+[3]: https://github.com/multiarch/qemu-user-static/releases
